@@ -13,9 +13,7 @@ Neulion CLI using the [neulion](https://github.com/majorleaguesoccer/neulion) mo
 neulion > help
 ```
 
-<p align="center">
-  ![Demonstration](/demo.gif?raw=true "Mom get the camera!")
-</p>
+![Demonstration](/demo.gif?raw=true "Mom get the camera!")
 
 
 License
