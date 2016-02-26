@@ -1,0 +1,6 @@
+{
+  "endpoint": "http://mydomain.neulion.com/iptv-admin-mlsws/services/ContentWS?wsdl"
+, "username": "username"
+, "password": "some password"
+, "group": 404
+}

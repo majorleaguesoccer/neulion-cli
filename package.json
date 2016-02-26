@@ -1,0 +1,40 @@
+{
+  "name": "neulion-cli",
+  "author": "Beau Sorensen <mail@beausorensen.com> (http://github.com/sorensen)",
+  "version": "0.0.0",
+  "description": "Neulion CLI",
+  "keywords": [
+    "neulion",
+    "cli"
+  ],
+  "licence": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/majorleaguesoccer/neulion-cli.git"
+  },
+  "engines": {
+    "node": ">=4.0"
+  },
+  "main": "index.js",
+  "bin": {
+    "neulion": "./bin/cli.js"
+  },
+  "scripts": {
+    "test": "npm run hint && ./node_modules/mocha/bin/mocha -R spec test/test-*.js",
+    "hint": "./node_modules/jshint/bin/jshint ./"
+  },
+  "dependencies": {
+    "bluebird": "3.2.2",
+    "debug": "2.2.0",
+    "faker": "3.0.1",
+    "neulion": "1.0.0",
+    "underscore": "1.8.3",
+    "var-type": "1.0.0"
+  },
+  "devDependencies": {
+    "faker": "3.0.1",
+    "jshint": "2.8.0",
+    "mocha": "2.4.5",
+    "yargs": "3.29.0"
+  }
+}
