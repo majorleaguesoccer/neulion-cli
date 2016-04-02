@@ -16,7 +16,7 @@ var vorpal = require('vorpal')()
  */
 
 var DAY = 24 * 60 * 60 * 1000
-  , DEMO = process.argv.indexOf('demo') ? require('./demo') : null
+  , DEMO = ~process.argv.indexOf('demo') ? require('./demo') : null
   , neulion = new Neulion(config)
 
 /*!

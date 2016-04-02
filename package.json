@@ -27,7 +27,7 @@
     "bluebird": "3.2.2",
     "debug": "2.2.0",
     "faker": "3.0.1",
-    "neulion": "1.0.0",
+    "neulion": "1.1.1",
     "underscore": "1.8.3",
     "var-type": "1.0.0"
   },
