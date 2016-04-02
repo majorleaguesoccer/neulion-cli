@@ -1,7 +1,7 @@
 {
   "name": "neulion-cli",
   "author": "Beau Sorensen <mail@beausorensen.com> (http://github.com/sorensen)",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Neulion CLI",
   "keywords": [
     "neulion",
